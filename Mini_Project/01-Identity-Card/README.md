@@ -6,6 +6,19 @@ This project demonstrates practical usage of **React Hooks** like `useState` and
 
 ---
 
+## 🌐 Live Preview
+
+🚀 **View the live application here:**  
+🔗 https://react-tailwind-learning-oyyry4ge7-ramitshapkotas-projects.vercel.app/
+
+You can interact with the app in real time:
+- Change name
+- Switch themes
+- Adjust font size
+- Download the identity card
+
+---
+
 ## 🚀 Features
 
 - ✏️ Enter and update user name dynamically
