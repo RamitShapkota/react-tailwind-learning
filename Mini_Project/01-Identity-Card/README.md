@@ -8,8 +8,7 @@ This project demonstrates practical usage of **React Hooks** like `useState` and
 
 ## 🌐 Live Preview
 
-🚀 **View the live application here:**  
-🔗 https://react-tailwind-learning-oyyry4ge7-ramitshapkotas-projects.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live%20Preview-View%20Project-brightgreen)](https://react-tailwind-learning-oyyry4ge7-ramitshapkotas-projects.vercel.app/)
 
 You can interact with the app in real time:
 - Change name
