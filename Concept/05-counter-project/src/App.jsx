@@ -10,6 +10,8 @@ function App() {
     // counter = counter+1;
     if(counter<20)
     setCounter(counter+1);
+
+    // setCounter(preCounter => preCounter+1); --> it takes the previous counter value and add one to that value 1 so the in ui the value increased by the 2 at once
   }
 
   const removeValue = () => {
