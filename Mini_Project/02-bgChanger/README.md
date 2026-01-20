@@ -1,16 +1,24 @@
-# React + Vite
+# React Background Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive background color switcher built with **React** and **Tailwind CSS**. This project demonstrates dynamic UI updates through state management and component communication.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Dynamic Styling:** Instant background updates without page reloads.
+- **Reusable Components:** Clean separation of concerns with a modular Button component.
+- **Modern UI:** Styled with Tailwind CSS for a mobile-responsive, "floating" navigation feel.
+- **Fluid Transitions:** Smooth color fading using Tailwind's `duration-200` utility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 What I Learned
+Through this project, I strengthened my understanding of:
 
-## React Compiler
+* **Lifting State Up:** Learned how to move state to a common parent component (`App.jsx`) so that sibling components can share and modify data.
+* **Props & Callback Functions:** Mastered passing data down to child components and passing actions (functions) back up to the parent via `onClick` handlers.
+* **Inline Style Objects:** Using the `style={{ backgroundColor: color }}` syntax to bind JavaScript variables directly to CSS properties.
+* **Tailwind Layout Utilities:** * `inset-x-0`: For horizontal positioning and stretching elements.
+    * `px-7` / `py-2`: Implementing precise spacing using the Tailwind scale.
+    * `fixed` & `flex`: Creating a floating, centered navigation bar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** (Hooks: `useState`)
+- **Tailwind CSS**
+- **Vite** (Build Tool)
