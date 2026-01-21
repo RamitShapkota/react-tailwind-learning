@@ -8,6 +8,10 @@ A sleek, high-performance Password Generator built with **React**, **Tailwind CS
 
 ---
 
+[![Live Demo](https://img.shields.io/badge/demo-live_preview-blue?style=for-the-badge&logo=vercel)](https://react-tailwind-learning-112i.vercel.app/)
+
+---
+
 ## ✨ Features
 
 * **Dynamic Complexity:** Toggle numbers and special characters on the fly.
