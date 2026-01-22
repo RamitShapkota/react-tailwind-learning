@@ -1,16 +1,42 @@
-# React + Vite
+# 💱 Real-Time Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, dynamic Currency Converter built with **React**, **Tailwind CSS**, and **Custom Hooks**. This project focuses on handling external API data, managing complex state dependencies, and creating a highly reusable component architecture.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Live Exchange Rates:** Integrates with a public Currency API to fetch real-time market data for over 100+ currencies.
+* **Custom Data Hook:** Features a custom `useCurrencyInfo` hook to handle asynchronous API calls and data mapping.
+* **Instant Currency Swap:** A seamless "Swap" feature that exchanges "From" and "To" values and labels instantly with state synchronization.
+* **Dynamic Component Reusability:** Uses a modular `InputBox` component designed to handle both input values and currency selection.
+* **Modern UI/UX:** A clean, glassmorphism-inspired interface with responsive design built using Tailwind CSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎓 What I Learned
+
+This project served as a comprehensive exploration of data-driven React development. Key takeaways include:
+
+* **Custom Hook Architecture:** Learning how to encapsulate complex logic (like fetching and formatting API data) into reusable custom hooks to keep components clean.
+* **State Synchronization:** Managing how changing one input (e.g., the "From" currency) triggers an automatic update in the converted result.
+* **The `useId` Hook:** Implementing the `useId` hook to generate unique IDs for accessibility in form elements and labels.
+* **API Data Processing:** Techniques for transforming complex JSON objects from APIs into usable arrays for dropdown menus and calculations.
+* **Component Modularity:** Architecting a project where individual UI elements (like the `InputBox`) are decoupled from the main logic for maximum reusability.
+
+---
+
+## 🧠 Tech Stack
+
+| Tool | Usage |
+| :--- | :--- |
+| **React Hooks** | `useState`, `useEffect`, `useId`, Custom Hooks |
+| **Styling** | Tailwind CSS (Flexbox, Backdrop Blur, Custom Transitions) |
+| **API Integration** | Fetch API / Currency API |
+| **Bundler** | Vite (Ultra-fast development environment) |
+
+---
