@@ -1,0 +1,12 @@
+The Full Chain of Command
+Interaction: You click the toggle button.
+
+Detection: onChangeBtn sees that the toggle is now "checked" (darkModeStatus is true).
+
+Reporting: onChangeBtn calls darkTheme().
+
+Processing: Inside App.jsx, the state themeMode changes to "dark".
+
+Execution: The useEffect in App.jsx sees the state change and adds the "dark" class to your <html> tag.
+
+Visual Change: Tailwind sees the <html> class and flips the colors on your Card.
