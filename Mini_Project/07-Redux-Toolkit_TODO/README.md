@@ -1,16 +1,92 @@
-# React + Vite
+# 📝 Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, modern **Todo application** built with **React**, **Redux Toolkit**, and **Tailwind CSS** to practice state management and UI development. This project demonstrates adding, removing, and managing todos in a professional React + Redux workflow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+* ✅ **Add Todos** dynamically
+* ❌ **Remove Todos** instantly
+* 🎨 **Professional UI** styled with Tailwind CSS
+* ⚡ **Responsive design** for all screen sizes
+* 📚 **Learn Redux Toolkit basics**: slices, reducers, and dispatch
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/redux-todo-app.git
+cd redux-todo-app
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the App
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology       | Purpose                                |
+| ---------------- | -------------------------------------- |
+| React            | Frontend library for building UI       |
+| Redux Toolkit    | State management                       |
+| Tailwind CSS     | Styling and responsive design          |
+| JavaScript (ES6) | Core language for logic and components |
+
+---
+
+## 📁 Project Structure
+
+```
+redux-todo-app/
+│
+├─ src/
+│  ├─ components/
+│  │  ├─ AddTodo.jsx      # Input form component
+│  │  └─ Todos.jsx        # Todo list component
+│  │
+│  ├─ features/
+│  │  └─ todo/
+│  │     └─ todoSlice.js  # Redux slice for todos
+│  │
+│  ├─ App.jsx            # Main app component
+│  └─ index.js           # App entry point
+│
+├─ package.json
+└─ README.md
+```
+
+---
+
+## 💡 Learning Outcomes
+
+* Understanding of **Redux Toolkit slices** and **reducers**
+* Using **useSelector** and **useDispatch** hooks to interact with Redux state
+* Building a **professional UI** using Tailwind CSS
+* Structuring React components in a reusable and scalable way
+
+---
+
+## 📌 Author
+
+**Ramit Shapkota** - *Learning Redux Toolkit and React Development*
+[GitHub](https://github.com/yourusername) | [LinkedIn](https://www.linkedin.com/in/yourprofile)
+
+---
+
+Made with ❤️ **React + Redux Toolkit + Tailwind CSS**
