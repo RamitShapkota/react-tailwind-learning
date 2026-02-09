@@ -1,0 +1,41 @@
+# 🪪 Identity Card Creator (React)
+
+A simple and interactive **Identity Card Creator** built with **React** that allows users to customize their name, theme, and text size, and download the identity card as an image.
+
+This project demonstrates practical usage of **React Hooks** like `useState` and `useRef` in a real-world UI scenario.
+
+---
+
+## 🌐 Live Preview
+
+[![Live Demo](https://img.shields.io/badge/Live%20Preview-View%20Project-brightgreen)](https://react-tailwind-learning.vercel.app/)
+
+You can interact with the app in real time:
+- Change name
+- Switch themes
+- Adjust font size
+- Download the identity card
+
+---
+
+## 🚀 Features
+
+- ✏️ Enter and update user name dynamically
+- 🌗 Toggle between **Light Mode** and **Dark Mode**
+- 🔠 Increase or decrease text size
+- 🔄 Reset all settings to default
+- 📸 Download the identity card as an image
+- 🎯 Clean and responsive UI
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **React Hooks**
+  - `useState` – for managing UI state
+  - `useRef` – for capturing the card for download
+- **Inline CSS Styling**
+- **Custom Download Component**
+
+---
