@@ -16,7 +16,11 @@ function App() {
          />
 
         <div className='flex-1 flex flex-col overflow-hidden'>
-          <Header />
+          <Header 
+          sidebarCollapsed = {sideBarCollapsed}
+          onToggleSidebar = {() => setSidebarCollapsed(!sideBarCollapsed)}
+
+          />
         </div>
       </div>
     </div>
